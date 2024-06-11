@@ -27,12 +27,12 @@ Installation
 
 1. Clone the repository: 
     ```
-    git clone https://github.com/AlexisMontagne/junior-backend-engineer-challenge.git
+    git clone https://github.com/gpc0des/upfCc.git
     ```
 
 2. Install the dependencies:
     ```
-    cd upfcc
+    cd upfCc
     go mod tidy
     ```
 
@@ -49,6 +49,8 @@ To analyze posts for a duration of 30 seconds based on the number of likes:
 
 
 ### Trade-offs and Considerations
+
+Graceful shut down was not implemented, use Ctrl+C to stop the server.
 
 In terms of testing, due to time constraints, the project currently lacks extensive test coverage. However, there are several areas where additional tests could be beneficial. For example, it would be valuable to verify that requests are handled correctly for the specified duration. Additionally, testing the ability to handle multiple requests concurrently would be beneficial. End-to-end or integration tests could also be added to ensure the overall functionality of the system. Regrouping of mock implementations could be done also.
 
